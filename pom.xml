@@ -13,6 +13,15 @@
         <version>1.2.1.RELEASE</version>
     </parent>
 
+    <build>
+        <plugins>
+            <plugin> <!-- Este plugin permite crear un jar -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
