@@ -10,11 +10,12 @@ Plugins para maven
 spring-boot.maven-plugin, permite crear un jar
 Si no heredo del parent de spring tengo que agregar la siguiente execution
 <pre>
-<executions>
-	<execution>
-		<goals>
-			<goal>repackage</goal>
-		</goals>
-	</execution>
-</executions>
+
+&lt;executions&gt;
+	&lt;execution&gt;
+		&lt;goals&gt;
+			&lt;goal&gt;repackage&lt;/goal&gt;
+		&lt;/goals&gt;
+	&lt;/execution&gt;
+&lt;/executions&gt;
 </pre>
